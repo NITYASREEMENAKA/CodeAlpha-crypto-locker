@@ -95,18 +95,6 @@ Install **"Solidity" by Juan Blanco** from the Extensions tab (icon on the
 left sidebar, or `Ctrl+Shift+X`) for syntax highlighting and inline errors
 while editing `.sol` files.
 
-## Submitting on Remix (assignment requirement)
+## 👤 Author
 
-Your assignment specifically asks you to deploy and test on **Remix IDE**
-(remix.ethereum.org), not just locally in VS Code. Steps:
-1. Go to https://remix.ethereum.org
-2. Create `TimeLockWallet.sol` in the `contracts` folder and paste the
-   contract code.
-3. Compile it (Solidity Compiler tab, version 0.8.20+).
-4. Deploy it (Deploy & Run tab, environment = "Remix VM").
-5. Call `depositETH` with some ETH value and a lock duration (e.g. 120 seconds).
-6. Immediately call `withdrawETH()` — it should **revert** (this is your
-   proof that early withdrawal is blocked).
-7. Wait or increase time, then call `withdrawETH()` again — it should succeed.
-
-Take screenshots of steps 5–7 for your submission.
+**NITYASREE**
